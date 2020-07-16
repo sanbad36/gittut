@@ -87,3 +87,111 @@ Date:   Thu Jul 16 17:36:37 2020 +0530[m
 exit
 
 Script done on 2020-07-16 17:36:46+0530
+Script started on 2020-07-16 18:09:15+0530
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git [K[K[K[Ktouch git[K[K[K.git [Kignore [K
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   output.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31merror.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ casr[K[K[K[Kgit status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   output.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$  git statustouch .gitignore[1Pcat output.txt exit[Kgit logcommit -m "First Commit"status[Kadd data.txt [7Pstatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   output.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31merror.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   output.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git [K[K[K[Kgit [K[K[K[Kgit add [K -[K[K.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git add.[K .
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   .gitignore[m
+	[32mmodified:   output.txt[m
+
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   .gitignore[m
+	[32mmodified:   output.txt[m
+
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git [K[K[K[Kgit log
+[?1h=[33mcommit 4ecfcebe0d045c68793554caedb8aac4d73de4e5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: sanbad36 <sanketbadjate36@gmail.com>[m
+Date:   Thu Jul 16 17:36:37 2020 +0530[m
+[m
+    First Commit[m
+[K[?1l>]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git [K add[K[K[Kcommit [K -m [K "" [1@u[1@s[1@i[1@n[1@g[1@ [1@g[1@i[1@t[1@ [1@i[1@g[1@n[1@o[1@r[1@e[1@ [1P[1@ [1P[C[C
+[master 7a22566] using git ignore
+ 2 files changed, 90 insertions(+)
+ create mode 100644 .gitignore
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ gitf l[K[K[K[K tl[K[K[Ktlogv [K[K[K[K[K log
+[?1h=[33mcommit 7a22566500d65da851b4ac56827fd792875af9fb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: sanbad36 <sanketbadjate36@gmail.com>[m
+Date:   Thu Jul 16 18:22:40 2020 +0530[m
+[m
+    using git ignore[m
+[m
+[33mcommit 4ecfcebe0d045c68793554caedb8aac4d73de4e5[m[m
+Author: sanbad36 <sanketbadjate36@gmail.com>[m
+Date:   Thu Jul 16 17:36:37 2020 +0530[m
+[m
+    First Commit[m
+[K[?1l>]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ cat [K[K[K[Kexit
+exit
+
+Script done on 2020-07-16 18:23:20+0530
