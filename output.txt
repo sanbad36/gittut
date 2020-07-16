@@ -1,0 +1,89 @@
+Script started on 2020-07-16 17:35:10+0530
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git status
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git init 
+Initialized empty Git repository in /home/sanket/Desktop/git/.git/
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mdata.txt[m
+	[31mdata2.txt[m
+	[31mdata3.xsl[m
+	[31moutput.txt[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git add 00[K[K--a
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   data.txt[m
+	[32mnew file:   data2.txt[m
+	[32mnew file:   data3.xsl[m
+	[32mnew file:   output.txt[m
+	[32mnew file:   typescript[m
+
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   data.txt[m
+	[32mnew file:   data2.txt[m
+	[32mnew file:   data3.xsl[m
+	[32mnew file:   output.txt[m
+	[32mnew file:   typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   data.txt[m
+
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git add [K [K data.txt 
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git stay[Ktys[K[Kus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   data.txt[m
+	[32mnew file:   data2.txt[m
+	[32mnew file:   data3.xsl[m
+	[32mnew file:   output.txt[m
+	[32mnew file:   typescript[m
+
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git commit -m ""F"i"r"s"t" "C"o"m"m"i"t"
+[master (root-commit) 4ecfceb] First Commit
+ 5 files changed, 9 insertions(+)
+ create mode 100644 data.txt
+ create mode 100644 data2.txt
+ create mode 100644 data3.xsl
+ create mode 100644 output.txt
+ create mode 100644 typescript
+]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ git log
+[?1h=[33mcommit 4ecfcebe0d045c68793554caedb8aac4d73de4e5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: sanbad36 <sanketbadjate36@gmail.com>[m
+Date:   Thu Jul 16 17:36:37 2020 +0530[m
+[m
+    First Commit[m
+[K[?1l>]0;sanket@sanket-badjate: ~/Desktop/git[01;32msanket@sanket-badjate[00m:[01;34m~/Desktop/git[00m$ exit
+exit
+
+Script done on 2020-07-16 17:36:46+0530
